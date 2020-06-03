@@ -1,6 +1,6 @@
 # events [![Build Status](https://travis-ci.org/Gozala/events.png?branch=master)](https://travis-ci.org/Gozala/events)
 
-> Node's event emitter for all engines. This is the same as the `events` package in Node except it uses ESM's `export default` instead of `module.exports`.  It also is being published under a new name for better compatibility with the Vite server.
+> Node's event emitter for all engines. This is the same as the `events` package in Node except it is published under a new name for better compatibility with the Vite server. Vite currently throws an error for Node's build-ins because Vite supports browser modules.
 
 This implements the Node.js [`events`](http://nodejs.org/api/events.html) module for environments that do not have it, like browsers.
 

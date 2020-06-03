@@ -1,7 +1,10 @@
 {
-  "name": "events",
+  "name": "@marshallswain/events",
   "id": "events",
   "version": "3.1.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "Node's event emitter for all engines.",
   "keywords": [
     "events",
